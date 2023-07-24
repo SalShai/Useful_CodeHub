@@ -1,4 +1,9 @@
 function convertAllDocsToPDF() {
+  '''
+    This function is convert all the Google Docs 
+    in the given Google Drive Folder into PDF Format.
+    These Docs get saved in the designated Google Drive Folder.
+  '''
   try {
     var folderId = "Drive_Folder_ID"; // Replace with the ID of the folder containing the Google Docs documents.
     var folder = DriveApp.getFolderById(folderId);
